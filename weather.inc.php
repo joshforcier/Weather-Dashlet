@@ -62,11 +62,11 @@ function weather_dashlet_func($mode=DASHLET_MODE_PREVIEW,$id="",$args=null)
 		$locationData = json_decode($jsonLocation,true);
 		$location = $locationData['places']['0']['place name'];
 
-    	$tempK = $weatherData['main']['temp'];
-    	$tempF = (round(($tempK - 273.15) * 1.8) + 32);
-    	$humidity = $weatherData['main']['humidity'];
-    	$windSpeed = $weatherData['wind']['speed'];
-    	$currentCond = $weatherData['weather']['0']['main'];
+		$tempK = $weatherData['main']['temp'];
+		$tempF = (round(($tempK - 273.15) * 1.8) + 32);
+		$humidity = $weatherData['main']['humidity'];
+		$windSpeed = $weatherData['wind']['speed'];
+		$currentCond = $weatherData['weather']['0']['main'];
 
 
     	echo '
