@@ -69,29 +69,29 @@ function weather_dashlet_func($mode=DASHLET_MODE_PREVIEW,$id="",$args=null)
 		$currentCond = $weatherData['weather']['0']['main'];
 
 
-    	echo '
-    	<table>
-    		<tr>
-    			<td width="110px">Location: </td>
-    			<td>' . $location . '</td>
-    		</tr>    	
-    		<tr>
-    			<td width="110px">Current Condition: </td>
-    			<td>' . $currentCond . '</td>
-    		</tr>
-    		<tr>
-    			<td>Tempurature:  </td>
-    			<td>' . $tempF . 'F</td>
-    		</tr>
-    		<tr>
-    			<td>Humidity: </td>
-    			<td>' . $humidity . '%</td>
-    		</tr>
-    		<tr>
-    			<td>Wind Speed: </td>
-    			<td>' . $windSpeed .'MPH</td>
-    		</tr> 
-    	</table>';
+		echo '
+		<table>
+			<tr>
+				<td width="110px">Location: </td>
+				<td>' . $location . '</td>
+			</tr>    	
+			<tr>
+				<td width="110px">Current Condition: </td>
+				<td>' . $currentCond . '</td>
+			</tr>
+			<tr>
+				<td>Tempurature:  </td>
+				<td>' . $tempF . 'F</td>
+			</tr>
+			<tr>
+				<td>Humidity: </td>
+				<td>' . $humidity . '%</td>
+			</tr>
+			<tr>
+				<td>Wind Speed: </td>
+				<td>' . $windSpeed .'MPH</td>
+			</tr> 
+		</table>';
 
 		break;
 
