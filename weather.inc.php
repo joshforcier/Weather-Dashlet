@@ -76,7 +76,7 @@ function weather_dashlet_func($mode=DASHLET_MODE_PREVIEW,$id="",$args=null)
 				<td>' . $location . '</td>
 			</tr>    	
 			<tr>
-				<td width="110px">Current Condition: </td>
+				<td>Current Condition: </td>
 				<td>' . $currentCond . '</td>
 			</tr>
 			<tr>
